@@ -1,17 +1,18 @@
-# Daily-Working-Log
+# 24-09 / Daily-Working-Log
 
-### 목표
-매일-매주-매월 스스로에 대한 피드백 진행함
+### 이번주 목표
+* JPA 프로젝트 강의(by. 김영한) 완강
+* JPA 프로젝트 강의(by. 백기선) 추가 진행 (to the deep)
+* thymeleaf 사용법 익히기
 
-* [2024.09]()
-* [2024.10]()
+### Things to think about
+* 실무 업무 효율을 높이는 조합 3종(spring boot / JPA / queryDSL) 동작원리 
 
+### Things to do
+* JPA 실전1(Web 개발) -- 9/25
 
-### 가이드
-(수정중)
+### Things I am doing?
+* JPA 실전1 - Web 개발 완강
 
-0. Things to think about
-1. Things to do
-2. Things I am doing
-3. Things I learned
+### Things I learned
 
