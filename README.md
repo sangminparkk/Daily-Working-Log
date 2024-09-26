@@ -16,6 +16,7 @@
 
 ## Things I learned
 * Web Application 데이터 전송  ---  9/25
+* @ModelAttribute Vs. Model  ---  9/26
 
 ---
 
@@ -31,4 +32,31 @@
 **피드백**  
 당연하게 알고 있다고 착각했던, 오만한 제 자신을 반성하게 됩니다.  
 위의 데이터 전달 흐름을 명확하게 인지하지 못한 상황에서 무작정 개발을 진행하다보니 막히는 부분이 많았습니다.  
-역시 무식하면 용감합니다..
+역시 무식하면 용감합니다..  
+
+### @ModelAttribute Vs. Model (9/26)
+아래 케이스에 맞게 사용하시면 됩니다.
+
+* Model : 서버에서 뷰로 데이터 전달하고 싶은 경우
+```java
+@GetMapping("/url")
+public String createForm(Model model) {
+    model.addAttribute("memberForm", new MemberForm());
+    return "memberForm";
+}
+```
+
+* @ModelAttribute : 클라이언트에서 서버로 데이터 바인딩 처리가 필요한 경우 
+  * 주로 폼데이터를 바인딩하고 유효성 검사를 처리할때 유용합니다. ([spring doc](https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/modelattrib-method-args.html))
+```java
+@PostMapping("/members/new")
+public String join(@Valid @ModelAttribute MemberForm memberForm, BindingResult result) { 
+    if (result.hasErrors()) {
+        // 예외처리
+    }
+    // 비즈니스 로직 처리
+    return "redirect:/";
+}
+```
+**피드백**  
+확실히 제대로 짚으면 몰랐던 내용이 많았네요.. 가야할 길이 멀지만 반드시 해내겠습니다. 좋은 동료분들과 함께 성장하는 개발자가 되기 위해 노력하겠습니다!
