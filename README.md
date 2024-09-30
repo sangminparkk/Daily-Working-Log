@@ -9,10 +9,13 @@
 * 실무 업무 효율을 높이는 조합 3종(spring boot / JPA / queryDSL) 동작원리 
 
 ## Things to do
-* JPA 실전1(Web 개발) -- 9/25
+* ~~JPA 실전1(Web 개발) -- 9/25~~
+* 자바의 정석(기본개념I) -- 9/30
+* JPA 실전2(API 개발 기본) -- 9/30
 
 ## Things I am doing?
-* JPA 실전1 - Web 개발 완강
+* ~~JPA 실전1 - Web 개발 완강 (~9/29)~~~
+
 
 ## Things I learned
 * Web Application 데이터 전송  ---  9/25
