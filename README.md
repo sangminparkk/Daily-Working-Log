@@ -1,17 +1,20 @@
-# Daily-Working-Log
+# 24-10 / Daily-Working-Log
 
-### 목표
-매일-매주-매월 스스로에 대한 피드백 진행함
+## 이번주 목표
+* 1주차 : 계획 미설정(반성해야할 부분)
+* 2주차 : JPA 프로젝트 강의(by. 김영한) 완강
 
-* [2024.09](https://github.com/sangminparkk/Daily-Working-Log/tree/24-09)
-* [2024.10]()
+## Things to think about
+* JPA 동작 원리 + 실무 활용성
 
+## Things to do
+* JPA 실전2 -- 10/13
+* 자바의 정석(완독) -- ASAP 
 
-### 가이드
-(수정중)
+## Things I am doing?
+* API 개발 기초 - 앱 연동필요에 따른 api controller 개발
+* API 개발 고급 - 지연로딩/조회 성능 최적화/컬렉션 조회 최적화/실무 필수 최적화
 
-0. Things to think about
-1. Things to do
-2. Things I am doing
-3. Things I learned
+## Things I learned
 
+---
